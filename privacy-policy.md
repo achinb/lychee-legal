@@ -1,66 +1,117 @@
-**Privacy Policy**
+# Privacy Policy
 
-This privacy policy applies to the Lychee app (hereby referred to as "Application") for mobile devices that was created by Achin Batra (hereby referred to as "Service Provider") as a Free service. This service is intended for use "AS IS".
+**Effective date: 2026-03-09**
 
-**Information Collection and Use**
+This Privacy Policy applies to the Lychee app ("Application") for mobile devices. By using the Application, you agree to the collection and use of information as described in this policy.
 
-The Application collects information when you download and use it. This information may include information such as
+---
 
-*   Your device's Internet Protocol address (e.g. IP address)
-*   The pages of the Application that you visit, the time and date of your visit, the time spent on those pages
-*   The time spent on the Application
-*   The operating system you use on your mobile device
+## 1. Information We Collect
 
-The Application does not gather precise information about the location of your mobile device.
+### Account Information
+- Name and email address (collected when you sign in with Google)
 
-The Application uses Artificial Intelligence (AI) technologies to enhance user experience and provide certain features. The AI components may process user data to deliver personalized content, recommendations, or automated functionalities. All AI processing is performed in accordance with this privacy policy and applicable laws. If you have questions about the AI features or data processing, please contact the Service Provider.
+### Child Information
+- Child's name, date of birth, and sex
 
-The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices and marketing promotions.
+### Health and Tracking Data
+The Application is designed to help parents log and monitor their child's health and development. We collect the following categories of data that you voluntarily enter:
 
-For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information, including but not limited to health/fitness data, name, email. The information that the Service Provider request will be retained by them and used as described in this privacy policy.
+- **Feeding:** time, duration, side (breastfeeding), volume and formula type (bottle), pump sessions
+- **Diapers:** time, type (wet/dirty/mixed), color and consistency flags
+- **Sleep:** start and end times, location, wake reason
+- **Weight:** date, value, and measurement source
+- **Growth:** length, head circumference, and computed WHO/CDC percentile data
+- **Vaccines:** administered vaccines, lot numbers, scheduled and deferred doses
+- **Medications:** name, dose, frequency, reason, and administering caregiver
+- **Illnesses:** onset date, symptoms, fever timeline, and resolution
+- **Milestones:** motor, language, social/emotional, and cognitive development markers
 
-**Third Party Access**
+### Usage and Diagnostic Data
+- Screens and features you interact with (via Firebase Analytics)
+- Crash reports and error logs (via Firebase Crashlytics)
+- Device operating system and IP address
 
-Only aggregated, anonymized data is periodically transmitted to external services to aid the Service Provider in improving the Application and their service. The Service Provider may share your information with third parties in the ways that are described in this privacy statement.
+---
 
-The Service Provider may disclose User Provided and Automatically Collected Information:
+## 2. How We Use Your Information
 
-*   as required by law, such as to comply with a subpoena, or similar legal process;
-*   when they believe in good faith that disclosure is necessary to protect their rights, protect your safety or the safety of others, investigate fraud, or respond to a government request;
-*   with their trusted services providers who work on their behalf, do not have an independent use of the information we disclose to them, and have agreed to adhere to the rules set forth in this privacy statement.
+We use the information collected to:
 
-**Opt-Out Rights**
+- Provide the core tracking and intelligence features of the Application
+- Generate age-appropriate insights and alerts based on your logged data
+- Send push notifications for reminders and alerts you configure
+- Diagnose and fix crashes and technical issues
+- Improve the Application over time based on aggregated, anonymized usage patterns
 
-You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+---
 
-**Data Retention Policy**
+## 3. Third-Party Services
 
-The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at lycheebebe@proton.me and they will respond in a reasonable time.
+Your data is processed by the following third-party services:
 
-**Children**
+| Service | Provider | Purpose |
+|---|---|---|
+| Firebase Authentication | Google LLC | Account sign-in |
+| Cloud Firestore | Google LLC | Cloud storage of all logged health and tracking data |
+| Firebase Analytics | Google LLC | Anonymized usage analytics |
+| Firebase Crashlytics | Google LLC | Crash and error reporting |
+| Firebase Cloud Messaging | Google LLC | Push notifications |
+| Google Sign-In | Google LLC | OAuth-based authentication |
+| Claude AI API | Anthropic, PBC | AI-powered insights and recommendations |
 
-The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+**Important:** Your health and tracking data is stored in Cloud Firestore on Google's servers. Raw data (not just aggregated data) is transmitted to and stored by Google LLC in accordance with Google's privacy practices. Please review [Google's Privacy Policy](https://policies.google.com/privacy) for details on how Google handles data.
 
-The Service Provider does not knowingly collect personally identifiable information from children. The Service Provider encourages all children to never submit any personally identifiable information through the Application and/or Services. The Service Provider encourage parents and legal guardians to monitor their children's Internet usage and to help enforce this Policy by instructing their children never to provide personally identifiable information through the Application and/or Services without their permission. If you have reason to believe that a child has provided personally identifiable information to the Service Provider through the Application and/or Services, please contact the Service Provider <span>(lycheebebe@proton.me)</span> so that they will be able to take the necessary actions. You must also be at least 16 years of age to consent to the processing of your personally identifiable information in your country (in some countries we may allow your parent or guardian to do so on your behalf).
+When you use AI-powered features, relevant portions of your logged data are sent to Anthropic's API to generate insights. Please review [Anthropic's Privacy Policy](https://www.anthropic.com/privacy) for details.
 
-**Security**
+---
 
-The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+## 4. Caregiver and Partner Sharing
 
-**Changes**
+The Application allows you to share access to your child's records with other caregivers (co-parents, grandparents, nannies, etc.). When you invite a caregiver:
 
-This Privacy Policy may be updated from time to time for any reason. The Service Provider will notify you of any changes to the Privacy Policy by updating this page with the new Privacy Policy. You are advised to consult this Privacy Policy regularly for any changes, as continued use is deemed approval of all changes.
+- They gain access to your child's logged data within the Application
+- All actions they take (logging, editing) are attributed to their account
+- You can revoke access at any time from the Application settings
 
-This privacy policy is effective as of 2026-02-28
+You are responsible for ensuring that any caregiver you invite consents to their data being used as described in this policy.
 
-**Your Consent**
+---
 
-By using the Application, you are consenting to the processing of your information as set forth in this Privacy Policy now and as amended by us.
+## 5. Data Retention
 
-**Contact Us**
+We retain your data for as long as your account is active. If you would like to delete your account and all associated data, please contact us at lycheebebe@proton.me. We will process your request within a reasonable time.
 
-If you have any questions regarding privacy while using the Application, or have questions about the practices, please contact the Service Provider via email at lycheebebe@proton.me.
+---
 
-* * *
+## 6. Children's Privacy
 
-This privacy policy page was generated by [App Privacy Policy Generator](https://app-privacy-policy-generator.nisrulz.com/)
+The Application is intended for use by parents and caregivers (18 years of age or older). It is not directed at children. While the Application collects data *about* infants and young children (entered by parents), it does not solicit data directly from children and is not marketed to children under 13.
+
+If you believe a child under 13 has directly submitted personal information through the Application, please contact us at lycheebebe@proton.me and we will promptly delete it.
+
+---
+
+## 7. Security
+
+We take the security of your data seriously. All data is transmitted over encrypted connections (HTTPS/TLS). Cloud Firestore security rules restrict access to your data to authorized users only. However, no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.
+
+---
+
+## 8. Your Rights and Opt-Out
+
+- **Stop data collection:** You can stop all data collection by uninstalling the Application.
+- **Delete your data:** Contact lycheebebe@proton.me to request deletion of your account and data.
+- **Opt out of analytics:** Firebase Analytics data collection can be limited through your device's privacy settings.
+
+---
+
+## 9. Changes to This Policy
+
+We may update this Privacy Policy from time to time. We will notify you of material changes by updating the effective date at the top of this page. Continued use of the Application after changes are posted constitutes acceptance of the updated policy.
+
+---
+
+## 10. Contact
+
+For any questions about this Privacy Policy, contact us at lycheebebe@proton.me.
